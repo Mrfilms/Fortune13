@@ -9926,7 +9926,8 @@
 /area/f13/followers)
 "hMA" = (
 /obj/structure/table,
-/obj/machinery/chem_dispenser/drinks,
+/obj/item/reagent_containers/food/drinks/bottle/cream,
+/obj/item/reagent_containers/food/drinks/bottle/orangejuice,
 /turf/open/floor/f13{
 	icon_state = "bar"
 	},
@@ -13864,6 +13865,10 @@
 /obj/item/reagent_containers/food/drinks/bottle/instacoffee{
 	pixel_x = -8
 	},
+/obj/item/reagent_containers/food/drinks/bottle/instacocoa{
+	pixel_x = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/instatea,
 /turf/open/floor/f13{
 	icon_state = "bar"
 	},
@@ -81376,7 +81381,7 @@ bmc
 bmc
 bmc
 dJQ
-dYr
+edM
 edM
 edM
 edM
@@ -81890,7 +81895,7 @@ bmc
 bmc
 bmc
 wwU
-edM
+dYr
 edM
 edM
 edM
