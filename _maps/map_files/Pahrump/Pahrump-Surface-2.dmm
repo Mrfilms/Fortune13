@@ -2405,11 +2405,9 @@
 /area/f13/building)
 "bqH" = (
 /obj/structure/rack,
-/obj/item/watertank,
 /obj/item/shovel/spade,
 /obj/item/hatchet,
 /obj/item/cultivator,
-/obj/item/storage/box/beakers,
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1;
 	pixel_y = 6
@@ -11575,7 +11573,6 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "gAx" = (
-/obj/machinery/hydroponics/soil/pot,
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 4;
 	pixel_x = 6
@@ -11583,9 +11580,8 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	pixel_y = -6
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/obj/machinery/hydroponics/soil,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "gAU" = (
 /obj/structure/rack,
@@ -12419,9 +12415,7 @@
 	dir = 4;
 	pixel_x = 6
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "haB" = (
 /obj/structure/simple_door/bunker,
@@ -14721,6 +14715,8 @@
 	dir = 1;
 	pixel_y = 6
 	},
+/obj/item/storage/box/beakers,
+/obj/item/watertank,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -17720,14 +17716,8 @@
 	},
 /area/f13/ncr)
 "jQv" = (
-/obj/structure/fluff/railing,
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	pixel_y = -6
-	},
+/obj/structure/reagent_dispensers/water_cooler,
+/obj/item/storage/box/cups,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -19336,14 +19326,9 @@
 /obj/item/reagent_containers/food/snacks/branrequests,
 /obj/item/reagent_containers/food/snacks/sausage,
 /obj/item/reagent_containers/food/snacks/sausage,
-/obj/item/storage/box/ingredients/american,
-/obj/item/storage/box/ingredients/vegetarian,
-/obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/snacks/f13/sugarbombs,
 /obj/item/reagent_containers/food/snacks/f13/sugarbombs,
-/obj/item/reagent_containers/food/condiment/pack/soup,
-/obj/item/reagent_containers/food/condiment/pack/soup,
 /obj/item/reagent_containers/food/condiment/pack/soup,
 /obj/item/reagent_containers/food/condiment/pack/soup,
 /turf/open/floor/f13{
@@ -20722,13 +20707,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "lCG" = (
-/obj/machinery/hydroponics/soil/pot,
 /obj/effect/turf_decal/trimline/yellow/line{
 	pixel_y = -6
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/obj/machinery/hydroponics/soil,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "lCM" = (
 /obj/machinery/light/small{
@@ -25212,9 +25195,7 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	pixel_y = -6
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "orm" = (
 /obj/structure/table/wood/settler,
@@ -26777,6 +26758,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/instacoffee{
 	pixel_x = -8
 	},
+/obj/item/storage/box/cups,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -27674,7 +27656,6 @@
 	},
 /area/f13/caves)
 "pKe" = (
-/obj/machinery/hydroponics/soil/pot,
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1;
 	pixel_y = 6
@@ -27686,9 +27667,8 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/obj/machinery/hydroponics/soil,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "pKq" = (
 /obj/structure/necropolis_gate{
@@ -31058,9 +31038,7 @@
 	dir = 8;
 	pixel_x = -6
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "rEc" = (
 /obj/structure/bed,
@@ -32399,9 +32377,7 @@
 	dir = 1;
 	pixel_y = 6
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "srt" = (
 /obj/structure/closet/athletic_mixed,
@@ -32560,7 +32536,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/red/white,
 /area/f13/building)
 "swl" = (
-/obj/machinery/hydroponics/soil/pot,
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1;
 	pixel_y = 6
@@ -32569,9 +32544,8 @@
 	dir = 1;
 	pixel_x = 16
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/obj/machinery/hydroponics/soil,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "swx" = (
 /obj/item/mining_scanner,
@@ -32764,10 +32738,8 @@
 	dir = 4;
 	pixel_x = 6
 	},
-/obj/machinery/hydroponics/soil/pot,
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/obj/machinery/hydroponics/soil,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "sCK" = (
 /obj/effect/spawner/lootdrop/trash,
@@ -32861,7 +32833,6 @@
 	},
 /area/f13/wasteland)
 "sHp" = (
-/obj/machinery/hydroponics/soil/pot,
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 8;
 	pixel_x = -6
@@ -32869,9 +32840,8 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	pixel_y = -6
 	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
+/obj/machinery/hydroponics/soil,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "sHt" = (
 /obj/effect/mob_spawn/human/corpse/raidermelee,
@@ -35248,9 +35218,6 @@
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "tVQ" = (
-/obj/structure/fluff/railing{
-	dir = 1
-	},
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 8;
 	pixel_x = -6
@@ -37506,11 +37473,6 @@
 /obj/structure/destructible/tribal_torch,
 /turf/open/floor/f13/wood,
 /area/f13/caves)
-"vfY" = (
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
-/area/f13/building)
 "vgw" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
@@ -77045,7 +77007,7 @@ cpK
 dit
 hJm
 cEC
-shT
+jQv
 lqp
 vYv
 vYv
@@ -79111,7 +79073,7 @@ pkL
 tVQ
 mBG
 mBG
-jQv
+iJN
 dit
 dCV
 gts
@@ -80907,7 +80869,7 @@ tzY
 tzY
 dit
 srr
-vfY
+cbr
 ork
 vYv
 eAe
@@ -81164,7 +81126,7 @@ oBj
 oBj
 dit
 swl
-vfY
+cbr
 lCG
 vYv
 rao
@@ -81421,7 +81383,7 @@ tzY
 oUy
 dit
 srr
-vfY
+cbr
 ork
 vYv
 lHE
